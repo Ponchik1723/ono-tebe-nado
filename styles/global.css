@@ -28,12 +28,9 @@ blockquote {
 
 a {
   color: inherit;
+  text-underline-position: under;
 }
 
 img {
   width: 100%;
-}
-
-a {
-  text-underline-position: under;
 }
