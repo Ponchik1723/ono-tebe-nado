@@ -1,11 +1,7 @@
 
-a {
-    text-underline-position: under;
-}
-
 .header {
     max-width: 1340px;
-    height: 109px;
+    min-height: 109px;
     margin: 92px 50px;
     display: flex;
     justify-content: space-between;
@@ -43,25 +39,24 @@ a {
 }
 
 .header__logo {
-    width: 148px;
-    height: 105px;
+    min-width: 148px;
+    min-height: 105px;
     margin-right: 60px;
 }
 
 .header__logo-image {
-    background-size: cover;
-    align-items: top;
+    
+
 }
 
 .address {
     list-style: none;
-    width: 240px;
-    height: 100px;
+    min-width: 240px;
+    min-height: 100px;
     padding: 0px;
 }
 
 .header__address {
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -71,7 +66,7 @@ a {
 
 .cover {
     max-width: 1440px;
-    height: 755px;
+    min-height: 755px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
     display: flex;
@@ -93,7 +88,7 @@ a {
 
 .cover__title {
     max-width: 1340px;
-    height: 355px;
+    min-height: 355px;
     flex-shrink: 0;
     color: #fff;
     font-size: 100px;
@@ -132,7 +127,7 @@ a {
 
 .cover__description {
     max-width: 1340px;
-    height: 52px;
+    min-height: 52px;
     margin: 135px 50px 50px;
     margin-right: 0;
     display: flex;
@@ -172,7 +167,7 @@ a {
 
 .lost {
     max-width: 1340px;
-    height: 579px;
+    min-height: 579px;
     margin: 180px 50px 180px;
     display: flex;
     align-items: center;
@@ -212,8 +207,8 @@ a {
 }
 
 .card {
-    width: 430px;
-    height: 450px;
+    min-width: 430px;
+    min-height: 450px;
     padding: 50px 40px;
     position: relative;
     text-align: left;
@@ -271,7 +266,7 @@ a {
 
 .about {
     max-width: 1340px;
-    height: 490px;
+    min-height: 490px;
     margin: 0 50px 0;
     display: flex;
     gap: 25px;
@@ -280,7 +275,7 @@ a {
 .about__column {
     display: inline-flex;
     min-width: 430px;
-    height: 388px;
+    min-height: 388px;
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
@@ -288,16 +283,16 @@ a {
 
 .about__logo {
     display: flex;
-    width: 240px;
-    height: 240px;
+    min-width: 240px;
+    min-height: 240px;
     margin: 0 95px;
     background-color: #000;
     border-radius: 50%;
 }
 
 .about__logo-image {
-    width: 148px;
-    height: 114px;
+    min-width: 148px;
+    min-height: 114px;
     background-image: url('../images/logo-white.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -328,7 +323,7 @@ a {
 
 .footer {
     max-width: 1340px;
-    height: 97px;
+    min-height: 97px;
     margin: 180px 50px 90px;
     display: flex;
     justify-content: space-between;
@@ -345,8 +340,8 @@ a {
 }
 
 .footer__menu {
-    width: 149px;
-    height: 64px;
+    min-width: 149px;
+    min-height: 64px;
 }
 
 .footer__menu-list {
@@ -371,8 +366,8 @@ a {
 }
 
 .footer__social-list {
-    width: 240px;
-    height: 48px;
+    min-width: 240px;
+    min-height: 48px;
     display: flex;
     list-style: none;
 }
@@ -386,7 +381,7 @@ a {
 }
 
 .footer__social-icon {
-    width: 55px;
-    height: 48px;
-    background-size: cover;
+    min-width: 55px;
+    min-height: 48px;
+    
 }

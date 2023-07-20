@@ -33,3 +33,7 @@ a {
 img {
   width: 100%;
 }
+
+a {
+  text-underline-position: under;
+}
