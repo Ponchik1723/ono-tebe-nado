@@ -1,9 +1,9 @@
 
-a{
+a {
     text-underline-position: under;
 }
 
-.header{
+.header {
     max-width: 1340px;
     height: 109px;
     margin: 92px 50px;
@@ -13,17 +13,17 @@ a{
     position: relative;
 }
 
-.header__menu{
+.header__menu {
     display: flex;
     gap: 0 32px;
 }
 
-.header___links-list{
+.header___links-list {
     
     
 }
 
-.header__link{
+.header__link {
     color: #000;
     font-size: 18px;
     font-style: normal;
@@ -31,31 +31,31 @@ a{
     line-height: normal;
 }
 
-.header__links-list-item{
+.header__links-list-item {
     list-style-type: circle;
 }
 
-.header__link_active{
+.header__link_active {
     text-decoration: none;
 }
 
-.header__links-list-item_no-bullit{
-    list-style: none;
+.header__links-list-item_no-bullit {
+    list-style: none; 
 }
 
-.header__logo{
+.header__logo {
     width: 148px;
     height: 105px;
     
     
 }
 
-.header__logo-image{
+.header__logo-image {
     background-size: cover;
     align-items: top;
 }
 
-.address{
+.address {
     list-style: none;
     width: 240px;
     height: 100px;
@@ -63,7 +63,7 @@ a{
     
 }
 
-.header__address{
+.header__address {
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -72,7 +72,7 @@ a{
     list-style: none;
 }
 
-.cover{
+.cover {
     max-width: 1440px;
     height: 755px;
     display: flex;
@@ -82,7 +82,7 @@ a{
     position: relative;
 }
 
-.overlay{
+.overlay {
     opacity: 0.6000000238418579;
     background: #000;
     position: absolute;
@@ -94,7 +94,7 @@ a{
 
 }
 
-.cover__title{
+.cover__title {
     max-width: 1340px;
     height: 355px;
     flex-shrink: 0;
@@ -114,24 +114,24 @@ a{
     z-index: 2;
 }
 
-.aligned-text{
+.aligned-text {
     text-align: left;
 }
 
-.aligned-text_center{
+.aligned-text_center {
     margin: 20px 0px 20px 0px;
     text-align: center;
 }
 
-.aligned-text_right{
+.aligned-text_right {
     text-align: end;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     word-spacing: 60px;
 }
 
-.cover__description{
+.cover__description {
     max-width: 1340px;
     height: 52px;
     margin: 135px 50px 50px;
@@ -143,7 +143,7 @@ a{
     
 }
 
-.cover__description-text{
+.cover__description-text {
     margin-left: 372px;
     color: #FFF;
     font-family: Raleway;
@@ -156,7 +156,7 @@ a{
     text-align: center;
 }
 
-.bet-button{
+.bet-button {
     max-width: 260px;
     margin-left: 110px;
     color: #FFF;
@@ -175,7 +175,7 @@ a{
     
 }
 
-.lost{
+.lost {
     max-width: 1340px;
     height: 579px;
     margin: 180px 50px 180px;
@@ -185,7 +185,7 @@ a{
     position: relative;
 }
 
-.lots__heading{
+.lots__heading {
     position: absolute;
     top: 0;
     left: 40px;
@@ -199,7 +199,7 @@ a{
     
 }
 
-.lots__card-list{
+.lots__card-list {
     margin: 30px 0px 30px;
     display: flex;
     flex-wrap: nowrap;
@@ -207,17 +207,17 @@ a{
     list-style: none;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
     
 }
 
-.card-link{
+.card-link {
     list-style: none;
     height: 100%;
     text-decoration: none;
 }
 
-.card{
+.card {
     width: 430px;
     height: 450px;
     padding: 50px 40px;
@@ -225,12 +225,12 @@ a{
     text-align: left;
 }
 
-.card_type_film{
+.card_type_film {
     background-size: cover;
     background-image: url('../images/card-lot-01.jpg');
 }
 
-.card__title{
+.card__title {
     
     color: #FFF;
     font-family: Raleway;
@@ -244,7 +244,7 @@ a{
     
 }
 
-.card__text{
+.card__text {
     color: #FFF;
     font-family: Raleway;
     font-size: 20px;
@@ -254,17 +254,17 @@ a{
     
 }
 
-.card_type_book{
+.card_type_book {
     background-size: cover;
     background-image: url('../images/card-lot-02.jpg');
 }
 
-.card_type_picture{
+.card_type_picture {
     background-size: cover;
     background-image: url('../images/card-lot-03.jpg');
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
     position: absolute;
     bottom: 0;
     left: 40px;
@@ -276,7 +276,7 @@ a{
     line-height: normal;
 }
 
-.about{
+.about {
     max-width: 1340px;
     height: 490px;
     margin: 0 50px 0;
@@ -284,7 +284,7 @@ a{
     gap: 25px;
 }
 
-.about__column{
+.about__column {
     display: inline-flex;
     min-width: 430px;
     height: 388px;
@@ -294,7 +294,7 @@ a{
     
 }
 
-.about__logo{
+.about__logo {
     display: flex;
     width: 240px;
     height: 240px;
@@ -303,7 +303,7 @@ a{
     border-radius: 50%;
 }
 
-.about__logo-image{
+.about__logo-image {
     width: 148px;
     height: 114px;
     background-image: url('../images/logo-white.svg');
@@ -312,7 +312,7 @@ a{
     margin: auto;
 }
 
-.about__title{
+.about__title {
     margin: 100px 0 100px;
     font-family: Raleway;
     font-size: 40px;
@@ -322,7 +322,7 @@ a{
     text-transform: uppercase;
 }
 
-.about__text{
+.about__text {
     font-family: Raleway;
     font-size: 20px;
     font-style: normal;
@@ -330,11 +330,11 @@ a{
     line-height: normal;
 }
 
-.about__separation_text{
+.about__separation_text {
     margin-bottom: 25px;
 }
 
-.footer{
+.footer {
     max-width: 1340px;
     height: 97px;
     margin: 180px 50px 90px;
@@ -344,7 +344,7 @@ a{
     position: relative;
 }
 
-.footer__address{
+.footer__address {
     font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -352,17 +352,17 @@ font-weight: 400;
 line-height: 24.3px; /* 135% */
 }
 
-.footer__menu{
+.footer__menu {
     width: 149px;
     height: 64px;
 }
 
-.footer__menu-list{
+.footer__menu-list {
     text-align: center;
     list-style: none;
 }
 
-.footer__menu-list-item{
+.footer__menu-list-item {
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -370,15 +370,15 @@ line-height: 24.3px; /* 135% */
     line-height: normal;
 }
 
-.footer__menu-link{
+.footer__menu-link {
 
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
     width: 240px;
     height: 48px;
     display: flex;
@@ -386,17 +386,17 @@ line-height: 24.3px; /* 135% */
     
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
     
 }
 
-.footer__social-link{
+.footer__social-link {
     margin-right: 35px;
 
     
 }
 
-.footer__social-icon{
+.footer__social-icon {
     width: 55px;
     height: 48px;
     background-size: cover;
