@@ -182,7 +182,8 @@
 }
 
 .lots__card-list-item {
-    
+    width: 430px;
+    min-height: 450px;
     flex-grow: 1;
 }
 
@@ -194,8 +195,6 @@
 }
 
 .card {
-    max-width: 430px;
-    min-height: 450px;
     padding: 50px 40px;
     text-align: left;
     display: flex;
@@ -252,7 +251,6 @@
 
 .about {
     max-width: 1340px;
-    min-height: 490px;
     margin: 0 50px 0;
     display: flex;
     gap: 25px;
@@ -263,6 +261,7 @@
     min-width: 430px;
     min-height: 388px;
     padding-bottom: 0px;
+    gap: 100px;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -285,8 +284,9 @@
     margin: auto;
 }
 
+
 .about__title {
-    margin: 100px 0 100px;
+    margin-top: 95px;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -306,7 +306,7 @@
 
 .footer {
     max-width: 1340px;
-    margin: 180px 50px 90px;
+    margin: 177px 50px 90px;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -350,7 +350,6 @@
 }
 
 .footer__social-list {
-    
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -358,11 +357,10 @@
 }
 
 .footer__social-link {
-    padding: 0;
+    text-decoration: none;
 }
 
 .footer__social-icon {
     width: 55px;
     height: 48px;
-    padding: 0;
 }
