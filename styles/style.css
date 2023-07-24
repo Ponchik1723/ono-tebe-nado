@@ -45,7 +45,6 @@
 .address {
     list-style: none;
     max-width: 240px;
-    min-height: 100px;
     padding: 0px;
 }
 
@@ -71,8 +70,8 @@
     opacity: 0.6;
     background: #000;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -202,11 +201,10 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    
+    background-size: cover;
 }
 
 .card_type_film {
-    background-size: cover;
     background-image: url('../images/card-lot-01.jpg');
 }
 .card__title {
@@ -231,13 +229,10 @@
 }
 
 .card_type_book {
-    background-size: cover;
     background-image: url('../images/card-lot-02.jpg');
 }
 
 .card_type_picture {
-    
-    background-size: cover;
     background-image: url('../images/card-lot-03.jpg');
 }
 
@@ -260,7 +255,6 @@
 .about__column {
     display: inline-flex;
     min-width: 430px;
-    min-height: 388px;
     padding-bottom: 0px;
     gap: 100px;
     flex-direction: column;
